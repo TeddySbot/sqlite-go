@@ -6,7 +6,7 @@ import (
 	"os"
 	"path/filepath"
 
-	_ "github.com/glebarez/go-sqlite"
+	_ "github.com/TeddySbot/sqlite-go"
 )
 
 func main() {
