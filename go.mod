@@ -4,9 +4,9 @@ go 1.20
 
 require (
 	github.com/google/pprof v0.0.0-20240409012703-83162a5b38cd
-	golang.org/x/sys v0.22.0
-	modernc.org/libc v1.55.3
-	modernc.org/mathutil v1.6.0
+	golang.org/x/sys v0.28.0
+	modernc.org/libc v1.61.13
+	modernc.org/mathutil v1.7.1
 	modernc.org/sqlite v1.31.0
 )
 
@@ -16,5 +16,6 @@ require (
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/ncruces/go-strftime v0.1.9 // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec // indirect
-	modernc.org/memory v1.8.0 // indirect
+	golang.org/x/exp v0.0.0-20230315142452-642cacee5cc0 // indirect
+	modernc.org/memory v1.8.2 // indirect
 )
