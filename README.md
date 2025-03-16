@@ -16,7 +16,7 @@ import (
 	"database/sql"
 	"log"
 
-	_ "github.com/TeddySbot/go-sqlite"
+	_ "github.com/TeddySbot/sqlite-go"
 )
 
 func main() {
@@ -47,5 +47,5 @@ Multiple PRAGMAs can be specified, e.g.:<br>
 ______
 ## Obtenir le package en Go
 ```
-go get https://github.com/glebarez/go-sqlite
+go get https://github.com/TeddySbot/sqlite-go
 ```
