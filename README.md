@@ -16,7 +16,7 @@ import (
 	"database/sql"
 	"log"
 
-	_ "github.com/glebarez/go-sqlite"
+	_ "github.com/TeddySbot/go-sqlite"
 )
 
 func main() {
