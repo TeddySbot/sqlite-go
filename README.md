@@ -43,3 +43,9 @@ Any SQLIte pragma can be preset for a Database connection using ```_pragma``` qu
 
 Multiple PRAGMAs can be specified, e.g.:<br>
 ```path/to/some.db?_pragma=busy_timeout(5000)&_pragma=journal_mode(WAL)```
+
+______
+## Obtenir le package en Go
+```
+go get https://github.com/glebarez/go-sqlite
+```
